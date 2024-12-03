@@ -1,0 +1,140 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+ul {
+    list-style-type: none;
+}
+
+iframe {
+    border-radius: 20px;
+}
+
+#header {
+    display: flex;
+
+}
+
+#list {
+    margin: 15px;
+    width: 30px;
+    height: 30px;
+
+    border: none;
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Hamburger_icon.svg/1024px-Hamburger_icon.svg.png");
+    background-size: cover;
+}
+
+#header img {
+    padding: 20px;
+    width: 90px;
+    height: 20px;
+}
+
+#search-menu {
+    margin-top: 10px;
+    margin-left: 440px;
+}
+
+#search {
+    width: 600px;
+    height: 40px;
+    padding-left: 20px;
+    border: solid 0.5px gray;
+    border-radius: 20px;
+}
+
+#btn-search {
+    width: 40px;
+    height: 40px;
+    
+    border-radius: 20px;
+    background-image: url("https://cdn-icons-png.flaticon.com/512/71/71403.png");
+    border: solid 0.5px gray;
+    background-size: cover;
+}
+
+#shorts {
+    display: none;
+    width: 1100px;
+    padding: 20px;
+    border-bottom: solid 1px lightgray;
+    margin-left: 400px;
+}
+
+#s-title {
+    margin-bottom: 10px;
+}
+
+#s-title img {
+    width: 20px;
+    height: 20px;
+}
+
+#s-content {
+    display: block;
+}
+
+#s-content ul, #m-content ul>li {
+    display: flex;
+}
+
+#s-content ul>li{
+    margin-right: 20px;
+}
+
+#s-content ul>li {
+    width: 200px;
+    height: 370px;
+}
+
+#s-content ul>li>div>iframe {
+    width: 200px;
+    height: 300px;
+}
+
+#s-content-list-1 {
+    margin-bottom: 10px;
+}
+
+#main {
+    width: 1100px;
+    padding: 20px;
+    margin-left: 400px;
+}
+
+#m-content-list>li {
+    height: 200px;
+    margin-bottom: 20px;
+}
+
+#m-content>ul>li>div {
+    margin-left: 10px;
+    display: block;
+}
+
+#btn-search {
+    cursor: pointer;
+}
+
+#btn-page {
+    display: flex;
+    margin-bottom: 20px;
+    margin-left: 800px;
+    gap: 40px;
+}
+
+#prev, #next {
+    display: none;
+
+    width: 100px;
+    height: 30px;
+
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#prev:hover, #next:hover {
+    background-color: lightgray;
+}

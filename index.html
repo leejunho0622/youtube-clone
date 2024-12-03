@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <script src="youtube.js"></script> -->
+    <link rel="stylesheet" href="style.css">
+    <script src="package.js"></script>
+    <title>Youtube</title>
+</head>
+<body>
+    <div id="root">
+        <div id="header">
+            <input type="button" id="list">
+            <a href="#"><img id="logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/YouTube_2024.svg/348px-YouTube_2024.svg.png" alt="youtube-logo"></a>
+            <div id="search-menu">
+                <input id="search" type="text" placeholder="검색">
+                <input id="btn-search" type="button">
+            </div>
+        </div>
+        <div id="shorts">
+            <div id="s-title">
+                <h3><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Youtube_shorts_icon.svg/1649px-Youtube_shorts_icon.svg.png" alt="shotrs">Shorts</h3>
+            </div>
+            <div id="s-content">
+                <ul id="s-content-list-1"></ul>
+                <ul id="s-content-list-2"></ul>
+            </div>
+        </div>
+        <div id="main">
+            <div id="m-content">
+                <ul id="m-content-list"></ul>
+            </div>
+        </div>
+        <div id="btn-page">
+            <input id="prev" type="button" value="Prev page">
+            <input id="next" type="button" value="Next page">
+        </div>
+    </div>
+</body>
+</html>
